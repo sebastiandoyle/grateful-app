@@ -1,0 +1,45 @@
+app_identifier "com.sebastiandoyle.grateful"
+username "sebastian.doyle@outlook.com"
+
+# App information
+skip_metadata false
+skip_screenshots true
+skip_binary_upload true
+force true
+overwrite_screenshots true
+precheck_include_in_app_purchases false
+
+# App Store Review Information
+app_review_information(
+  first_name: "Sebastian",
+  last_name: "Doyle",
+  phone_number: "",
+  email_address: "sebastian.doyle@outlook.com",
+  demo_user: "",
+  demo_password: "",
+  notes: "This app is a simple gratitude journal. No login or demo account is needed - the app stores all data locally on the device."
+)
+
+# Submission Info
+submission_information({
+  add_id_info_uses_idfa: false,
+  content_rights_has_rights: true,
+  content_rights_contains_third_party_content: false
+})
+
+# Categories
+primary_category "HEALTH_FITNESS"
+secondary_category "LIFESTYLE"
+
+# App rating
+app_rating_config_path "./fastlane/app_rating.json"
+
+# Copyright
+copyright "2026 Sebastian Doyle"
+
+# Price tier (0 = free)
+price_tier 0
+
+# Submit for review
+submit_for_review false
+automatic_release true
